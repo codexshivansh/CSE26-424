@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Student Profile Card</title>
+    <style>
+      .container {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        align-items: center;
+        background-color: #f6f3f3;
+        border: 2px solid black;
+        width: 1100px;
+        height: 350px;
+        margin-left: 30px;
+        margin-top: 50px;
+      }
+
+      .jeet, .Asha, .Rohit {
+        width: 180px;
+        height: 230px;
+        border-radius: 10px;
+        background: white;
+        padding: 15px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        text-align: center;
+      }
+      .jeet:hover, .Asha:hover, .Rohit:hover {
+      transform: translateY(-10px);
+      transition: 0.3s ease;
+      box-shadow: 0 12px 25px rgba(0,0,0,0.25);
+      cursor: pointer;
+      background: #fdfdfd; 
+}
+
+
+      .circle {
+        width: 60px;
+        height: 60px;
+        background: #1e90ff;
+        color: white;
+        border-radius: 50%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+
+      .name {
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="container">
+
+      <div class="jeet">
+        <div class="circle">JK</div>
+        <div class="name">Jeet Kumar</div>
+        B.Tech - CSE <br>
+        Roll No: 21CS1007 <br>
+        1st Year
+      </div>
+
+      <div class="Asha">
+        <div class="circle">AR</div>
+        <div class="name">Asha Rani</div>
+        B.Tech - IT <br>
+        Roll No: 21IT1012 <br>
+        1st Year
+      </div>
+
+      <div class="Rohit">
+        <div class="circle">RK</div>
+        <div class="name">Rohit Kumar</div>
+        B.Tech - ECE <br>
+        Roll No: 21EC1009 <br>
+        1st Year
+      </div>
+
+    </div>
+
+  </body>
+</html>

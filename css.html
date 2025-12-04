@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS BOX MODEL</title>
+</head>
+<body style="background:#233142; padding:40px; font-family:Arial;">
+
+    <div style="
+        width: 500px;
+        height: 350px;
+        background: #ff7043;
+        margin:auto;
+        position:relative;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    ">
+        <span style="position:absolute; top:5px; font-size:18px; ">Margin</span>
+
+        <div style="
+            width: 420px;
+            height: 270px;
+            background:#29b6f6;
+            position:relative;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        ">
+            <span style="position:absolute; top:5px; font-size:16px; ">Border</span>
+
+            <div style="
+                width: 330px;
+                height: 190px;
+                background:#ffeb3b;
+                position:relative;
+                display:flex;
+                justify-content:center;
+                align-items:center;
+            ">
+                <span style="position:absolute; top:5px; font-size:16px;">Padding</span>
+
+                <div style="
+                    width: 230px;
+                    height: 120px;
+                    background:#26a69a;
+                    position:relative;
+                    display:flex;
+                    justify-content:center;
+                    align-items:center;
+                    font-size:18px;
+                ">
+                    <span>Content</span>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
