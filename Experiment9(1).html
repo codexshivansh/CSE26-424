@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Responsive Product Grid</title>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: #f2f2f2;
+        margin: 0;
+        padding: 40px;
+    }
+
+    .container {
+        max-width: 1400px;
+        margin: auto;
+        padding: 20px;
+        border: 2px solid #000;
+        background: white;
+    }
+
+    h1 {
+        text-align: center;
+        margin-bottom: 40px;
+        font-size: 28px;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 25px;
+        padding: 10px;
+    }
+
+    .card {
+        background: white;
+        padding: 20px;
+        border-radius: 12px;
+        text-align: center;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        transition: 0.3s ease;
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+    }
+
+    .card img {
+        width: 250px;
+        height: 150px;
+        object-fit: contain;
+        margin-bottom: 15px;
+    }
+
+    .card h2 {
+        font-size: 20px;
+        margin: 8px 0;
+    }
+
+    .card p {
+        font-size: 14px;
+        color: #555;
+        margin-bottom: 10px;
+    }
+
+    .price {
+        font-size: 17px;
+        font-weight: bold;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Responsive Product Grid</h1>
+
+    <div class="grid">
+
+        <div class="card">
+            <img src="https://imgs.search.brave.com/9iq7KTzBFoQ_gbejug35WEFerIIHZGWmG_P0maMSONw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/bW9zLmNtcy5mdXR1/cmVjZG4ubmV0LzRN/RnkyNjZianZTeDhu/cUhibnE2ZFkuanBn" alt="Product 1">
+            <h2>The M5 MacBook Pro</h2>
+            <p>High-quality item with great features.</p>
+            <div class="price">₹1,89,900/-</div>
+        </div>
+
+        <div class="card">
+            <img src="https://imgs.search.brave.com/RjrVK6OI_jFVsH_2HePs_21w-amR0bAxwpdnhzDsOJg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/dG9wdGVueS5jb20v/d3AtY29udGVudC91/cGxvYWRzLzIwMTYv/MTAvQnZsZ2FyaS1G/bG9yYS1zdW5nbGFz/c2VzMi5qcGc" alt="Product 2">
+            <h2>Bulgari Flora Sunglasses</h2>
+            <p>Durable and stylish for daily use.</p>
+            <div class="price">₹53.47 Lakhs</div>
+        </div>
+
+        <div class="card">
+            <img src="https://imgs.search.brave.com/v3cGIiI3jAyOkFBLfb_5dmoaLSoe3tq1ykd8p3BgBpE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zbmVh/a2VybmV3cy5jb20v/d3AtY29udGVudC91/cGxvYWRzLzIwMjMv/MDQvYWlyLWpvcmRh/bi0xMy1nYW1lLXdv/cm4tYXV0b2dyYXBo/ZWQtMTk5OC1uYmEt/ZmluYWxzLWxhc3Qt/ZGFuY2UtNC5qcGc" alt="Product 3">
+            <h2>Air Jordan 13 “Last Dance”</h2>
+            <p>Lightweight and comfortable.</p>
+            <div class="price">₹19.7 Crores</div>
+        </div>
+
+        <div class="card">
+            <img src="https://imgs.search.brave.com/24p80PtzkYayRodFy68E-HIa3ccZo5rWPvKn9n3A904/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvOTM2/NTA3MjAwL3Bob3Rv/L2Jhc2VsLXN3aXR6/ZXJsYW5kLWEtcGF0/ZWstcGhpbGlwcGUt/NTcxOS0xLWZlYXR1/cmluZy0xLTM0My1k/aWFtb25kcy1pcy1k/aXNwbGF5ZWQtYXQt/dGhlLmpwZz9zPTYx/Mng2MTImdz0wJms9/MjAmYz1lbGVIczc5/ZjdZQ2pGODdmQ0hi/el9yZnhqWno3TkNi/UzVpcC1EdU1IaGxn/PQ" alt="Product 4">
+            <h2>Patek Phillippe 5719/1</h2>
+            <p>Trendy design with premium quality.</p>
+            <div class="price">₹5.27 Crores</div>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
