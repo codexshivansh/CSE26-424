@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>E-Commerce Product Page</title>
+    <style>
+        body{
+            font-family: Arial;
+            background: #f2f2f2;
+            margin: 20px;
+        }
+        .container{
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .card{
+            width: 250px;
+            background: white;
+            border: 1px solid #ccc;
+            padding: 15px;
+            border-radius: 10px;
+        }
+        .card img{
+            width:100%;
+            height:180px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        h3{
+            margin:10px 0;
+            color:#333;
+        }
+        .price{
+            color: green;
+            font-weight: bold;
+        }
+        .btn{
+            background:orange;
+            color:white;
+            padding:8px 10px;
+            border:none;
+            width:100%;
+            border-radius:5px;
+            cursor:pointer;
+        }
+    </style>
+</head>
+<body>
+
+
+<div class="container">
+
+    <div class="card">
+        <img src="https://imgs.search.brave.com/ymsUZe-usQkpnK10vwzol-mqvBsF0S_Zc4DpTH0jyyA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wbHVz/LnVuc3BsYXNoLmNv/bS9wcmVtaXVtX3Bo/b3RvLTE2NzgwOTk5/NDA5NjctNzNmZTMw/NjgwOTQ5P2ZtPWpw/ZyZxPTYwJnc9MzAw/MCZpeGxpYj1yYi00/LjEuMCZpeGlkPU0z/d3hNakEzZkRCOE1I/eHpaV0Z5WTJoOE5Y/eDhhR1ZoWkhCb2Iy/NWxjM3hsYm53d2ZI/d3dmSHg4TUE9PQ">
+        <h3>Product 1</h3>
+        <p class="price">₹999</p>
+        <button class="btn">Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="https://imgs.search.brave.com/HMWyHQP5LRP-BbyXu4g1oMZQmDql052eAr9ti1ZqXF0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/aW5kaWFpc3RvcmUu/Y29tL2ZpbGVzL3Vw/bG9hZHMvcHJvZHVj/dHMvYWlycG9kcy1w/cm8tMm5kLWdlbmVy/YXRpb24vaW1hZ2Vz/L2NoYXJnZXJzX3Nt/YWxsXzJ4LnBuZz82/MDAwMDNmZmY5MTA">
+        <h3>Product 2</h3>
+        <p class="price">₹1299</p>
+        <button class="btn">Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="https://imgs.search.brave.com/LGwCmxLbMYCarLvHhRKrT_HHAxvcHCeebZtmz4cfaSM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zaG9w/LnRlYW1zZy5pbi9j/ZG4vc2hvcC9maWxl/cy9VbnRpdGxlZF9k/ZXNpZ25fZDRlNTNm/ZWUtNjViNi00NjQy/LTk0YjctNjIwZTJh/NGQ5NzdjLnBuZz92/PTE3NTE2MTQxNzQm/d2lkdGg9NTMz">
+        <h3>Product 3</h3>
+        <p class="price">₹1599</p>
+        <button class="btn">Add to Cart</button>
+    </div>
+
+</div>
+
+</body>
+</html>
